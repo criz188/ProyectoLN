@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/css/alumonadmin.css">
+    <title>PROYECTO LENGUAJE NATURAL</title>
+</head>
+<body>
+
+    <div>
+        <div>
+            <div>
+                <label for="hidden-mapping-left">Datos</label>
+                <input id="nombre" name="nombre" type="date">
+                <input id="edad" name="edad" type="number">
+                <button type="button" onclick="obtenVariable()">Guardar</button>
+            </div>
+        </div>
+        
+        <div>
+            <div>
+                <div>
+                    <table id="table_alumnos">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Apellido Paterno</th>
+                                <th>Apellido Materno</th>
+                                <th>Edad</th>
+                                <th>Género</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/estilos/js/alumnos/alumnosAdmin.js"></script>
+    <script src="/estilos/js/datatables.min.js"></script>
+    <script src="/estilos/js/datatables.js"></script>
+</body>
+</html>
